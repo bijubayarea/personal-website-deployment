@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: personal-website
-        image: bijubayarea/personal-website:latest
+        image: docker.io/bijubayarea/personal-website:latest
         ports:
         - containerPort: 80
           protocol: TCP
